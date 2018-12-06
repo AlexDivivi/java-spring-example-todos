@@ -14,6 +14,10 @@ public class Todo {
         this.checked = false;
     }
 
+    public void toggle() {
+        this.checked = !this.checked;
+    }
+
     public String getId() {
         return id;
     }
